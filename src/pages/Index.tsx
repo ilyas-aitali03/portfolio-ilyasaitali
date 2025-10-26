@@ -111,10 +111,10 @@ const Index = () => {
                   <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary to-accent rounded-t-xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
                   <div className="flex items-start space-x-3">
                     <Network className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                    <div>
+                    <div className="flex-1 min-w-0">
                       <h3 className="font-semibold text-foreground mb-1">Systèmes & Réseaux</h3>
-                      <p className="text-sm text-muted-foreground leading-relaxed">
-                        Installation, maintenance et sécurité des infrastructures informatiques
+                      <p className="text-sm text-muted-foreground leading-relaxed break-words">
+                        Installation, maintenance et sécurité
                       </p>
                     </div>
                   </div>
@@ -124,10 +124,10 @@ const Index = () => {
                   <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary to-accent rounded-t-xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
                   <div className="flex items-start space-x-3">
                     <Wrench className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
-                    <div>
+                    <div className="flex-1 min-w-0">
                       <h3 className="font-semibold text-foreground mb-1">Matériel Audio & IT</h3>
-                      <p className="text-sm text-muted-foreground leading-relaxed">
-                        Connaissance approfondie du hardware et équipements techniques
+                      <p className="text-sm text-muted-foreground leading-relaxed break-words">
+                        Hardware et équipements techniques
                       </p>
                     </div>
                   </div>
@@ -137,10 +137,10 @@ const Index = () => {
                   <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary to-accent rounded-t-xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
                   <div className="flex items-start space-x-3">
                     <Headphones className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                    <div>
+                    <div className="flex-1 min-w-0">
                       <h3 className="font-semibold text-foreground mb-1">Logiciels Audio</h3>
-                      <p className="text-sm text-muted-foreground leading-relaxed">
-                        Audacity, FL Studio, Pro Tools - apprentissage rapide et adaptabilité
+                      <p className="text-sm text-muted-foreground leading-relaxed break-words">
+                        Audacity, FL Studio, Pro Tools
                       </p>
                     </div>
                   </div>
@@ -150,10 +150,10 @@ const Index = () => {
                   <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary to-accent rounded-t-xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
                   <div className="flex items-start space-x-3">
                     <Lightbulb className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
-                    <div>
+                    <div className="flex-1 min-w-0">
                       <h3 className="font-semibold text-foreground mb-1">Rigueur & Logique</h3>
-                      <p className="text-sm text-muted-foreground leading-relaxed">
-                        Précision technique, méthodologie et résolution de problèmes
+                      <p className="text-sm text-muted-foreground leading-relaxed break-words">
+                        Précision et résolution de problèmes
                       </p>
                     </div>
                   </div>
