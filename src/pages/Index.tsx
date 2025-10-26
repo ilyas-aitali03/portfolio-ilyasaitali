@@ -382,24 +382,33 @@ const Index = () => {
             size: A4;
             margin: 15mm;
           }
-          
+
           body {
             print-color-adjust: exact;
             -webkit-print-color-adjust: exact;
+            margin: 0;
+            padding: 0;
           }
-          
+
+          html, body {
+            height: auto;
+            overflow: visible;
+          }
+
           .print\\:page-break-after-always {
             page-break-after: always;
+            break-after: always;
           }
-          
+
           .print\\:min-h-0 {
             min-height: 0 !important;
+            height: auto !important;
           }
-          
+
           .print\\:hidden {
             display: none !important;
           }
-          
+
           .print\\:shadow-none {
             box-shadow: none !important;
           }
@@ -407,6 +416,16 @@ const Index = () => {
           * {
             -webkit-print-color-adjust: exact !important;
             print-color-adjust: exact !important;
+          }
+
+          section {
+            page-break-inside: avoid;
+            break-inside: avoid;
+          }
+
+          .min-h-screen {
+            min-height: 0 !important;
+            height: auto !important;
           }
         }
       `}</style>
