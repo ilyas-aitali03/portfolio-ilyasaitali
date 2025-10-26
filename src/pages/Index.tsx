@@ -74,13 +74,13 @@ const Index = () => {
         </section>
 
         {/* Page 2: Profil et Compétences */}
-        <section className="min-h-screen relative px-12 py-16 print:min-h-0 print:page-break-after-always">
+        <section className="min-h-screen relative px-12 py-16 print:min-h-0 print:py-8 print:page-break-after-always">
           {/* Vertical decorative line */}
           <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-primary via-accent to-primary opacity-50"></div>
-          
-          <div className="pl-8 space-y-10">
+
+          <div className="pl-8 space-y-8 print:space-y-6">
             {/* Profil Personnel */}
-            <div className="space-y-6">
+            <div className="space-y-4 print:space-y-3">
               <div className="flex items-center space-x-3">
                 <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center shadow-[var(--shadow-soft)]">
                   <Target className="w-6 h-6 text-white" />
@@ -88,17 +88,17 @@ const Index = () => {
                 <h2 className="text-3xl font-bold text-foreground">Profil personnel</h2>
               </div>
 
-              <div className="bg-gradient-to-br from-secondary/50 to-white p-6 rounded-2xl border-l-4 border-primary shadow-sm">
+              <div className="bg-gradient-to-br from-secondary/50 to-white p-5 print:p-4 rounded-2xl border-l-4 border-primary shadow-sm">
                 <p className="text-foreground leading-relaxed">
-                  Je suis un jeune technicien spécialisé en systèmes et réseaux, passionné par 
-                  la musique et la technologie. Mon objectif est d'allier mes connaissances techniques 
+                  Je suis un jeune technicien spécialisé en systèmes et réseaux, passionné par
+                  la musique et la technologie. Mon objectif est d'allier mes connaissances techniques
                   à la création sonore pour participer à des projets musicaux et multimédias innovants.
                 </p>
               </div>
             </div>
 
             {/* Compétences Techniques */}
-            <div className="space-y-6">
+            <div className="space-y-4 print:space-y-3">
               <div className="flex items-center space-x-3">
                 <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center shadow-[var(--shadow-soft)]">
                   <Cpu className="w-6 h-6 text-white" />
@@ -106,8 +106,8 @@ const Index = () => {
                 <h2 className="text-3xl font-bold text-foreground">Compétences techniques</h2>
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div className="group relative bg-white p-5 rounded-xl border border-border hover:border-primary transition-all duration-300 hover:shadow-[var(--shadow-soft)]">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 print:gap-3">
+                <div className="group relative bg-white p-4 print:p-3 rounded-xl border border-border hover:border-primary transition-all duration-300 hover:shadow-[var(--shadow-soft)]">
                   <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary to-accent rounded-t-xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
                   <div className="flex items-start space-x-3">
                     <Network className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
@@ -120,7 +120,7 @@ const Index = () => {
                   </div>
                 </div>
 
-                <div className="group relative bg-white p-5 rounded-xl border border-border hover:border-primary transition-all duration-300 hover:shadow-[var(--shadow-soft)]">
+                <div className="group relative bg-white p-4 print:p-3 rounded-xl border border-border hover:border-primary transition-all duration-300 hover:shadow-[var(--shadow-soft)]">
                   <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary to-accent rounded-t-xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
                   <div className="flex items-start space-x-3">
                     <Wrench className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
@@ -133,7 +133,7 @@ const Index = () => {
                   </div>
                 </div>
 
-                <div className="group relative bg-white p-5 rounded-xl border border-border hover:border-primary transition-all duration-300 hover:shadow-[var(--shadow-soft)]">
+                <div className="group relative bg-white p-4 print:p-3 rounded-xl border border-border hover:border-primary transition-all duration-300 hover:shadow-[var(--shadow-soft)]">
                   <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary to-accent rounded-t-xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
                   <div className="flex items-start space-x-3">
                     <Headphones className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
@@ -146,7 +146,7 @@ const Index = () => {
                   </div>
                 </div>
 
-                <div className="group relative bg-white p-5 rounded-xl border border-border hover:border-primary transition-all duration-300 hover:shadow-[var(--shadow-soft)]">
+                <div className="group relative bg-white p-4 print:p-3 rounded-xl border border-border hover:border-primary transition-all duration-300 hover:shadow-[var(--shadow-soft)]">
                   <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary to-accent rounded-t-xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
                   <div className="flex items-start space-x-3">
                     <Lightbulb className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
@@ -162,8 +162,8 @@ const Index = () => {
             </div>
 
             {/* Formation */}
-            <div className="bg-gradient-to-br from-primary/5 to-accent/5 p-6 rounded-2xl border border-primary/20">
-              <div className="flex items-center space-x-3 mb-4">
+            <div className="bg-gradient-to-br from-primary/5 to-accent/5 p-5 print:p-4 rounded-2xl border border-primary/20">
+              <div className="flex items-center space-x-3 mb-3 print:mb-2">
                 <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
                   <Cpu className="w-5 h-5 text-white" />
                 </div>
