@@ -39,7 +39,7 @@ const Index = () => {
                   Ilyas AIT ALI
                 </h1>
                 <p className="text-lg text-muted-foreground font-light">
-                  Né le 28 mai 2003 • Laâyoune, Maroc
+                  Né le 15 Juillet 2003 • Laâyoune, Maroc
                 </p>
               </div>
               
